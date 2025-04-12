@@ -84,7 +84,7 @@ Este projeto está licenciado sob a **MIT License**.
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por **Fábio Araújo**  
+## **Pós-Graduação em Engenharia de Software da PUC-Rio**.
+- Disciplina: **Arquitetura de Software**
+- Desenvolvido por **Fábio Araújo**  
 📧 Email: fabiorodrigo.puc@gmail.com
