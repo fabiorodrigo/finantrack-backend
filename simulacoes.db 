@@ -1,0 +1,21 @@
+import sqlite3
+
+# Conecta (ou cria) o banco de dados
+conn = sqlite3.connect("/mnt/data/simulacoes.db")
+cursor = conn.cursor()
+
+# Cria a tabela simulacoes, se não existir
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS simulacoes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    moeda TEXT,
+    valor_brl REAL,
+    valor_convertido REAL,
+    cotacao REAL
+)
+''')
+
+conn.commit()
+conn.close()
+
+"/mnt/data/simulacoes.db criado com sucesso."
